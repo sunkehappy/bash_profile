@@ -38,6 +38,7 @@ PROMPT_COMMAND='_set_prompt'
 alias l='ls -AFhlt'
 alias lh='l | head'
 alias ldd='otool -L'
+alias listd='ls -ldt */'
 
 export GREP_OPTIONS="--color=auto"
 #alias grep='grep --color'
